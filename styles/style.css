@@ -1,0 +1,99 @@
+* {
+        font-family: fantasy;
+}
+
+#reel img {
+    
+        max-height: 300px;
+        max-width: 300px;
+        min-height: 300px;
+        min-width: 300px;
+    
+}
+
+#counters {
+        
+        margin: auto;
+        min-width: 900px;
+        max-width: 900px;
+        display: flex;
+        justify-content: space-around;
+        
+}
+
+#reel {
+        display: flex;
+        justify-content: center;
+}
+
+#buttons {
+
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 30px;
+}
+
+#border {
+         margin-left: 25%;
+        margin-right: 25%; 
+        border: solid rgb(212, 175, 55) 2em;
+        border-radius: 25px;
+        background-color: seashell;
+}
+
+.counterDisplay {
+        min-height: 200px;
+        min-width: 200px;
+        border: solid .05em black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4em;
+        background-color: black;
+        
+}
+
+#credit {
+        color: chartreuse;
+}
+
+#winnings {
+        color: chartreuse;
+}
+.counterText {
+        margin: auto;
+        font-size: 3em;
+        text-align: center;
+        padding-top: 25px;
+        
+}
+
+body {
+      background-color: black;
+      padding-top: 12%;
+}
+
+#message {
+        min-width: 775px;
+        border: .05em black solid;
+        min-height: 50px;
+        max-height: 50px;
+        text-align: center;
+        padding-top: 15px;
+        font-size: 1.5em;
+}
+
+#messageBox {
+        display: flex;
+        justify-content: center;
+}
+
+.buttonStyle {
+        min-width: 150px;
+        min-height: 150px;
+        border-radius: 50%;
+        border: 0;
+        outline: none;
+        background-color: chartreuse;
+        font-size: 2em;
+}
